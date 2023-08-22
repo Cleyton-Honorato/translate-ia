@@ -70,31 +70,22 @@ const App = () => {
         <div className="choices">
           <input
             type="radio"
-            id="hindi"
-            name="language"
-            value="Hindi"
-            defaultChecked={formData.language}
-            onChange={handleInputChange}
-          />
-          <label htmlFor="hindi">Hindi</label>
-
-          <input
-            type="radio"
             id="spanish"
             name="language"
             value="Spanish"
+            defaultChecked={formData.language}
             onChange={handleInputChange}
           />
           <label htmlFor="spanish">Spanish</label>
 
           <input
             type="radio"
-            id="japanese"
-            name="language"
-            value="Japanese"
+            id="english"
+            name="english"
+            value="English"
             onChange={handleInputChange}
           />
-          <label htmlFor="japanese">Japanese</label>
+          <label htmlFor="english">English</label>
         </div>
 
         <textarea
