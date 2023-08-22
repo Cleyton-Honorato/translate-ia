@@ -8,6 +8,7 @@ const App = () => {
   const [error, setError] = useState("");
   const [showNotification, setShowNotification] = useState(false);
   const [translation, setTranslation] = useState("");
+  
   const [isLoading, setIsLoading] = useState(false);
 
   const configuration = new Configuration({
